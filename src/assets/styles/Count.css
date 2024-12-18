@@ -1,0 +1,25 @@
+
+.count_wrapper{
+    margin-bottom: 5%;
+    overflow: hidden;
+}
+
+.wrapper .count_container {
+    width: 520%;
+  }
+
+li{list-style:none}
+
+ul{display:flex;flex-grow:1;}
+ul li{
+    width:33%;
+    text-align:center;
+    color:white;
+}
+
+.count{
+    font-size: 35px;
+}
+.title{
+    font-size: 11px;
+}

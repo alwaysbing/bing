@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Slide from './components/Sllide';
+import Count from './components/Count';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -14,6 +15,7 @@ root.render(
   <React.StrictMode>
     <Header/>
     {/* <Slide/> */}
+    <Count/>
     <Footer/>
   </React.StrictMode>
 );

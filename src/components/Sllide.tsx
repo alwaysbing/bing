@@ -13,7 +13,7 @@ export default function Slide(){
     const onRun = () => setAnimate(true);
 
     return(
-        <div className='wrapper'>
+        <div className='slide_wrapper'>
             <div className='slide_container'>
             <ul
                     className="slide_wrapper"
