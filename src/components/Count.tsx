@@ -11,7 +11,6 @@ export default function Count(){
     
     const day = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
     
-    console.log(day);
 
     return(
         <div className='count_wrapper'>

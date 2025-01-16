@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Slide from './components/Sllide';
 import Count from './components/Count';
+import Slide2 from './components/Sllide2';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -14,7 +15,8 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Header/>
-    {/* <Slide/> */}
+    <Slide/>
+    <Slide2/>
     <Count/>
     <Footer/>
   </React.StrictMode>

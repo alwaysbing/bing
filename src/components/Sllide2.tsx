@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import '../assets/styles/Slide.css';
 
-import filmoData from "../assets/data/filmo.json";
+import filmoData from "../assets/data/filmo2.json";
 
-export default function Slide(){
+export default function Slide2(){
 
     // 애니메이션 제어 할 상태 변수 
     const [animate, setAnimate] = useState(true);
