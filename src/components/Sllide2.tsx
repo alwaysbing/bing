@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../assets/styles/Slide.css';
+import '../assets/styles/Slide2.css';
 
 import filmoData from "../assets/data/filmo2.json";
 
