@@ -31,9 +31,6 @@ export default function Slide(){
                             >
                                 <div className="item">
                                     <img src={images.image} alt={images.title} />
-                                    <div className="overlay">
-                                        <p className="overlay_text">{images.title}</p>
-                                    </div>
                                 </div>
                             </li>
                         ))}
@@ -47,9 +44,6 @@ export default function Slide(){
                             >
                                 <div className="item">
                                     <img src={images.image} alt={images.title} />
-                                    <div className="overlay">
-                                        <p className="overlay_text">{images.title}</p>
-                                    </div>
                                 </div>
                             </li>
                         ))}

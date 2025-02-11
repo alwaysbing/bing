@@ -1,32 +1,31 @@
-.wrapper{
-    margin-bottom: 5%;
+.wrapper2{
     overflow: hidden;
 }
-.wrapper .slide_container {
+.wrapper2 .slide_container {
     width: 650%;
   }
-  .wrapper .slide_container .slide_wrapper {
+  .wrapper2 .slide_container .slide_wrapper {
     display: flex;
     flex-wrap: nowrap;
   }
-  .wrapper .slide_container .slide {
+  .wrapper2 .slide_container .slide {
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
   }
-  .wrapper .slide_container .slide.original {
+  .wrapper2 .slide_container .slide.original {
     animation: 45s linear infinite normal none running infiniteAnimation1;
   }
   
-  .wrapper .slide_container .slide.clone {
+  .wrapper2 .slide_container .slide.clone {
     animation: 45s linear infinite infiniteAnimation2;
   }
   
-  .wrapper .slide_container .slide.stop {
+  .wrapper2 .slide_container .slide.stop {
     animation-play-state: paused;
   }
   
-  .wrapper .slide_container .slide li {
+  .wrapper2 .slide_container .slide li {
     /* cursor: pointer; */
     z-index: 2;
     transition: 0.3s;
@@ -40,11 +39,11 @@
     display: block;
   }
   
-  .wrapper .slide_container .slide li:hover {
+  .wrapper2 .slide_container .slide li:hover {
     transform: scale(0.98);
   }
   
-  .wrapper .slide_container .slide li:hover::after {
+  .wrapper2 .slide_container .slide li:hover::after {
     content: "";
     position: absolute;
     top: 0;

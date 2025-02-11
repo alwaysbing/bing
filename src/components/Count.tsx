@@ -17,7 +17,7 @@ export default function Count(){
             <div className='count_container'>
                 <ul>
                     <li>
-                        <p> <CountUp className='count' start={0} end={52} duration={2.5} separator="," suffix="개" /></p>
+                        <p><CountUp className='count' start={0} end={52} duration={2.5} separator="," suffix="개" /></p>
                         <span className='title'>작품 수</span>
                     </li>
                     <li>

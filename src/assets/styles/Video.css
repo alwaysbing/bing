@@ -1,0 +1,15 @@
+.video_wrapper{
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.video_container{
+    width: 80%;
+}
+
+.react_player{
+    width: 80%;
+}

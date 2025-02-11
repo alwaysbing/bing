@@ -8,6 +8,8 @@ import Footer from './components/Footer';
 import Slide from './components/Sllide';
 import Count from './components/Count';
 import Slide2 from './components/Sllide2';
+import Profile from './components/Profile';
+import Video from './components/Video';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -15,9 +17,11 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Header/>
+    <Profile />
+    <Count/>
     <Slide/>
     <Slide2/>
-    <Count/>
+    <Video/>
     <Footer/>
   </React.StrictMode>
 );

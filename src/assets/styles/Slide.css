@@ -1,5 +1,5 @@
 .wrapper{
-    margin-bottom: -20px;
+    margin-bottom: -1%;
     overflow: hidden;
 }
 .wrapper .slide_container {
@@ -56,34 +56,6 @@
     border-radius: 20px;
     /* background-color: rgba(0, 0, 0, 0.2); */
   }
-
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* 반투명 배경 */
-    opacity: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: opacity 0.3s ease-in-out;
-}
-
-/* 오버레이 텍스트 */
-.overlay_text {
-    color: white;
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-}
-
-/* Hover 시 오버레이 표시 */
-.item:hover .overlay {
-    opacity: 1;
-}
 
   @keyframes infiniteAnimation1 {
     0% {
