@@ -22,10 +22,14 @@ ul li{
     color:white;
 }
 
+p{
+    margin: 0;
+}
+
 .count{
-    font-size: 4vw;
+    font-size: 3vw;
 }
 .title{
-    font-size: 1.5vw;
+    font-size: 1vw;
 }
 
