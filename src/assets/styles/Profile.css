@@ -6,7 +6,7 @@
 .profile_container{
 
 
-    padding: 10px;
+    padding: 1%;
     animation: fadein 3s;
     -moz-animation: fadein 3s; /* Firefox */
     -webkit-animation: fadein 3s; /* Safari and Chrome */
@@ -110,4 +110,24 @@
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/Cafe24Lovingu.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-  }
+}
+
+@media (max-width: 800px){
+.profile_text {
+    font-size: 40%;
+}
+}
+
+/* 작은 화면(모바일)에서는 폰트 크기를 줄이기 */
+@media (max-width: 768px) {
+    .profile_text {
+        font-size: 40%;
+    }
+}
+
+/* 더 작은 화면(예: 480px 이하) */
+@media (max-width: 480px) {
+    .profile_text{
+        font-size: 10%;
+    }
+}

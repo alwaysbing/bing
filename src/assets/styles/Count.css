@@ -5,12 +5,17 @@
 }
 
 .wrapper .count_container {
+    display:flex;
     width: 520%;
-  }
+}
 
 li{list-style:none}
 
-ul{display:flex;flex-grow:1;}
+ul{
+    display:flex;
+    flex-grow:1;
+    padding: 0%;
+}
 ul li{
     width:33%;
     text-align:center;
@@ -18,8 +23,9 @@ ul li{
 }
 
 .count{
-    font-size: 35px;
+    font-size: 4vw;
 }
 .title{
-    font-size: 11px;
+    font-size: 1.5vw;
 }
+
