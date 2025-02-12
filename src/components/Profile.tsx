@@ -8,7 +8,7 @@ export default function Profile() {
             <div className='profile_container'>
                 <div className='profile'>
                     <div className='profile_img'>
-                        <img src='/images/profile/profile.png'></img>
+                        <img src='https://alwaysbing.github.io/bing/images/profile/profile.png'></img>
                     </div>
                     <div className='profile_text'>
                         <div className='name'>임병근 <span className='name_en'> Lim Byung-keun</span></div>
@@ -25,12 +25,12 @@ export default function Profile() {
                         <div className='site'>
                             <div className='insta_logo'>
                                 <a href="https://www.instagram.com/lbk_bing" target='_blank'>
-                                <img src='/images/profile/insta.png'></img> 
+                                <img src='https://alwaysbing.github.io/bing/images/profile/insta.png'></img> 
                                 </a>
                             </div>
                             <div className='x_logo'>
                                 <a href='https://x.com/lbkzz27' target='_blank'>
-                                <img src='/images/profile/x.png'></img> 
+                                <img src='https://alwaysbing.github.io/bing/images/profile/x.png'></img> 
                                 </a>
                             </div>
                         </div>
