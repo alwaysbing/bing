@@ -24,12 +24,12 @@ export default function Profile() {
                         수상 : 2011년 대구국제뮤지컬페스티벌 신인상
                         <div className='site'>
                             <div className='insta_logo'>
-                                <a href="">
+                                <a href="https://www.instagram.com/lbk_bing" target='_blank'>
                                 <img src='/images/profile/insta.png'></img> 
                                 </a>
                             </div>
                             <div className='x_logo'>
-                                <a href=''>
+                                <a href='https://x.com/lbkzz27' target='_blank'>
                                 <img src='/images/profile/x.png'></img> 
                                 </a>
                             </div>
